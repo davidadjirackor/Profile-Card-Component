@@ -1,0 +1,102 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.main-card{
+  max-width: 350px;
+  background-color: white;
+  overflow: hidden;
+  border-radius: 20px;
+  position: relative;
+  margin: 100px auto;
+}
+
+.top-card svg{
+  display: block;
+  object-fit: cover;
+  z-index: 1;
+  
+}
+
+.card-image{
+  width: 100%;
+}
+
+
+.card-image img{
+  width: 28%;
+  height: 25%;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+  border: 4px solid white
+  
+}
+
+.card-name {
+  display:flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.card-name span{
+  font-weight: 300;
+  padding: 10px;
+  font-size:20px;
+  
+}
+
+.card-city{
+  display:flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+.card-details{
+  display:flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 30px;
+  border-top: 1px solid grey;
+}
+
+.numbers{
+  text-align: center;
+  font-weight: 700;
+  font-size: 15px;
+  
+  
+}
+
+.words{
+  display:flex;
+  flex-direction: column;
+  text-transform: capitalize;
+  font-weight: 200;
+  letter-spacing: 2px;
+
+}
+
+.bg-top{
+  position: absolute;
+  right: 50%;
+  bottom: 5%;
+  z-index: -1;
+  width: 100%;
+  height: auto;
+}
+
+.bg-bottom{
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 40%;
+  width: 100%;
+  height: auto;
+  
+}
